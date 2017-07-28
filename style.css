@@ -108,7 +108,7 @@ h6,
 }
 
 .content .entry {
-	padding: 0;
+	padding: 24px 0 0 0;
 }
 
 .flex-entry.column .entry-image-before-entry:not(.aligncenter):not(.alignleft):not(.alignright) {
