@@ -3,7 +3,7 @@
 // Child theme (Do not remove!)
 define( 'CHILD_THEME_NAME', 'Mai News Theme' );
 define( 'CHILD_THEME_URL', 'https://maitheme.com/' );
-define( 'CHILD_THEME_VERSION', '1.0.0' );
+define( 'CHILD_THEME_VERSION', '1.1.0' );
 
 // Support the Mai Theme Engine (Do not remove!).
 add_theme_support( 'mai-theme-engine' );
@@ -16,6 +16,7 @@ add_theme_support( 'mai-theme-engine' );
  * composer require afragen/wp-dependency-installer
  */
 include_once( __DIR__ . '/vendor/autoload.php' );
+add_filter( 'pand_theme_loader', '__return_true' );
 WP_Dependency_Installer::instance()->run( __DIR__ );
 
 // Don't do anything else if the Mai Theme Engine plugin is not active.
@@ -35,7 +36,7 @@ foreach ( glob( dirname( __FILE__ ) . '/includes/*.php' ) as $file ) { include $
 // Enqueue CSS files.
 add_action( 'wp_enqueue_scripts', 'maitheme_enqueue_fonts' );
 function maitheme_enqueue_fonts() {
-	wp_enqueue_style( 'maitheme-google-fonts', '//fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Montserrat:600,600i,700,700i,800,800i,900,900i', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'maitheme-google-fonts', 'https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Montserrat:600,600i,700,700i,800,800i,900,900i', array(), CHILD_THEME_VERSION );
 }
 
 // Customize the site footer text.

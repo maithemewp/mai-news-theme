@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19cb96e809fab30e1cedf35b38e4f363",
+    "content-hash": "845c656070aab63a431e1afc05e93403",
     "packages": [
         {
             "name": "afragen/wp-dependency-installer",
-            "version": "1.4.10",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afragen/wp-dependency-installer.git",
-                "reference": "7d8266c8de2e1df3ccc754869c419e8377bb67c8"
+                "reference": "5aa77e50c0fffc45245ca33c1cdd3f681c17fb84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afragen/wp-dependency-installer/zipball/7d8266c8de2e1df3ccc754869c419e8377bb67c8",
-                "reference": "7d8266c8de2e1df3ccc754869c419e8377bb67c8",
+                "url": "https://api.github.com/repos/afragen/wp-dependency-installer/zipball/5aa77e50c0fffc45245ca33c1cdd3f681c17fb84",
+                "reference": "5aa77e50c0fffc45245ca33c1cdd3f681c17fb84",
                 "shasum": ""
             },
             "require": {
                 "collizo4sky/persist-admin-notices-dismissal": "^1",
-                "php": ">=5.3"
+                "php": ">=5.6"
             },
             "type": "library",
             "autoload": {
@@ -36,31 +36,31 @@
             ],
             "authors": [
                 {
-                    "name": "Matt Gibbs",
-                    "role": "Developer"
-                },
-                {
                     "name": "Andy Fragen",
                     "email": "andy@thefragens.com",
                     "homepage": "https://thefragens.com",
                     "role": "Developer"
+                },
+                {
+                    "name": "Matt Gibbs",
+                    "role": "Developer"
                 }
             ],
             "description": "Library that helps WordPress plugin dependency management.",
-            "time": "2019-02-06T20:00:18+00:00"
+            "time": "2020-01-23T22:53:01+00:00"
         },
         {
             "name": "collizo4sky/persist-admin-notices-dismissal",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/collizo4sky/persist-admin-notices-dismissal.git",
-                "reference": "b63922b4ad023d78039cca71caf9002913058fd8"
+                "reference": "2d7d8bb3cba631ad227c92296a4b675d7cbc71d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/collizo4sky/persist-admin-notices-dismissal/zipball/b63922b4ad023d78039cca71caf9002913058fd8",
-                "reference": "b63922b4ad023d78039cca71caf9002913058fd8",
+                "url": "https://api.github.com/repos/collizo4sky/persist-admin-notices-dismissal/zipball/2d7d8bb3cba631ad227c92296a4b675d7cbc71d7",
+                "reference": "2d7d8bb3cba631ad227c92296a4b675d7cbc71d7",
                 "shasum": ""
             },
             "type": "library",
@@ -77,7 +77,7 @@
                 }
             ],
             "description": "Simple library to persist dismissal of admin notices across pages in WordPress dashboard.",
-            "time": "2018-11-25T07:06:31+00:00"
+            "time": "2019-03-12T05:19:51+00:00"
         }
     ],
     "packages-dev": [],

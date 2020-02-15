@@ -7,8 +7,8 @@
  * Version: 1.0
  * Author: Andy Fragen, Matt Gibbs
  * License: MIT
- * Requires WP: 4.0
- * Requires PHP: 5.3
+ * Requires WP: 5.1
+ * Requires PHP: 5.6
  */
 
 require_once __DIR__ . '/vendor/autoload.php';
@@ -17,7 +17,7 @@ WP_Dependency_Installer::instance()->run( __DIR__ );
 add_filter(
 	'wp_dependency_timeout',
 	function( $timeout, $source ) {
-		$timeout = $source !== basename( __DIR__ ) ? $timeout : 14;
+		$timeout = basename( __DIR__ ) !== $source ? $timeout : 14;
 		return $timeout;
 	},
 	10,

@@ -1,4 +1,4 @@
-MAI LIFESTYLE THEME
+MAI NEWS THEME
 https://maitheme.com
 
 INSTALL
@@ -11,6 +11,10 @@ SUPPORT
 Please visit http://support.maitheme.com/ for theme support.
 
 CHANGELOG
+
+= 1.1.0 =
+* Update dependencies.
+* Add display swapping for Google Fonts.
 
 = 1.0.0 =
 * Initial release.
